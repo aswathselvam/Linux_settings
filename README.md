@@ -21,3 +21,7 @@ sudo dpkg --get-selections < app-backup-list.txt
 sudo apt-get -y update
 sudo apt-get dselect-upgrade
 ```
+
+## Nvidia driver
+I use Ubuntu 20.04, mainline Kernel 5.11.1, nvidia-driver-460 for RTX 2060.
+If `nvidia-smi` works, but `nvtop` doesn't install due to dependency issues, download [nvtop .deb file](https://packages.debian.org/sid/amd64/nvtop/download)
