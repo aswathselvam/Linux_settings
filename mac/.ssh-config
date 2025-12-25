@@ -1,0 +1,40 @@
+Host desktop
+    HostName 10.0.0.229
+    User screwdriver
+    Port 8013
+    ForwardX11 yes
+    ForwardX11Trusted yes
+
+Host desktop-internet
+    HostName 73.233.189.120
+    User screwdriver
+    Port 8013
+    ForwardX11 yes
+    ForwardX11Trusted yes
+
+Host desktop-tailscale
+    HostName 100.98.176.47
+    User screwdriver
+    Port 8013
+    ForwardX11 yes
+    ForwardX11Trusted yes
+
+Host xdready
+    HostName 10.0.0.55
+    User screwdriver
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    
+Host aswath-ROG-local
+    HostName 10.0.0.138
+    User aswath
+    Port 8931
+    ForwardX11 yes
+    ForwardX11Trusted yes
+
+Host aswath-ROG-local
+    HostName 73.233.189.120
+    User aswath
+    Port 8931
+    ForwardX11 yes
+    ForwardX11Trusted yes
